@@ -3,6 +3,9 @@ img {
 }
 
 header{
+  position: sticky;
+  top: 0;
+  background-color: white;
   padding: 0.5rem 0.25rem;
   box-shadow: 0px 0px 0.15rem 0 rgb(129, 129, 129);
 
