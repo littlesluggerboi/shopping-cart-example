@@ -1,7 +1,7 @@
 import styles from "./product.module.css";
 import pants from "./pants.jpeg";
 import heartIcon from "../../assets/heart-outline.svg";
-import starIcon from "./star.svg";
+import starIcon from "../../assets/star.svg";
 
 export default function Product() {
   return (
@@ -21,13 +21,11 @@ export default function Product() {
         <div className={styles.details}>
           <div className={styles.size}>
             <p>UNISEX</p>
-            <p>XXX</p>
+            <p>S-XL</p>
           </div>
-          <p className={styles.name}>Product Name</p>
-          <div className={styles.price}>
-            <span>PHP</span>
-            <p>1,999.00</p>
-          </div>
+          <p className={styles.name}>Dry Non Iron Jersey Short Sleeve</p>
+            <h3>PHP&ensp;1,999.00</h3>
+          
           <div className={styles.rating}>
             <img src={starIcon} alt="" />
             <span>4.9</span>

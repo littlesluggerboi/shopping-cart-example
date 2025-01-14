@@ -37,6 +37,8 @@ footer{
     display: flex;
     justify-content: space-between;
     color: gray;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .copyright > p{
