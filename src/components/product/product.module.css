@@ -5,6 +5,9 @@
     width: 300px;
     height: 400px;
 }
+.contains{
+    background-color: red;
+}
 
 .flex{
     display: flex;

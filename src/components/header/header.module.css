@@ -2,12 +2,33 @@ img {
   width: 100%;
 }
 
-header{
-  /* position: sticky; */
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+header ul a {
+  font-size: 1.3rem;
+}
+
+header {
+  z-index: 10000;
+  position: sticky;
   top: 0;
   background-color: white;
   padding: 0.5rem 0.25rem;
   box-shadow: 0px 0px 0.25vh 0 rgb(129, 129, 129);
+}
+
+@media (max-width: 715px) {
+  header {
+    position: initial;
+  }
+  .header ul a {
+    max-width: 5ch;
+    overflow: hidden;
+  }
 }
 
 .header {
@@ -20,9 +41,17 @@ header{
   margin: auto;
   flex-wrap: wrap;
 }
+
+@media (max-width: 500px) {
+  .header {
+    justify-content: center;
+  }
+}
+
 .logo {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 .logo > div {
   display: flex;
@@ -43,12 +72,7 @@ header{
   gap: 3rem;
 }
 
-.header ul > li {
-  cursor: pointer;
-  font-size: 1.3rem;
-}
-
-.header ul > li:hover {
+.header ul > a:hover {
   text-decoration: underline;
 }
 
@@ -57,12 +81,12 @@ header{
   gap: 1rem;
 }
 
-.img_group > img {
+.img_group a > img {
   padding: 0.5rem;
   width: 30px;
   cursor: pointer;
 }
 
-.img_group > img:hover {
+.img_group  a > img:hover {
   opacity: 0.5;
 }

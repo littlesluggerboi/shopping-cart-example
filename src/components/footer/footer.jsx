@@ -3,7 +3,7 @@ import fbIcon from "./facebook.svg";
 import instaIcon from "./instagram.svg";
 import twitterIcon from "./twitter.svg";
 
-export default function Footer() {
+const Footer = () => {
   return (
     <>
       <footer>
@@ -63,3 +63,5 @@ export default function Footer() {
     </>
   );
 }
+
+export default Footer;

@@ -1,0 +1,39 @@
+.item{
+    display: flex;
+    gap: 1rem;
+}
+
+.img{
+    position: relative;
+    display: flex;
+}
+
+.img > img{
+    max-width: 200px;
+}
+
+.img button{
+    position: absolute;
+    right: 0;
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+}
+
+.img button > img{
+    max-width: 1.5rem;
+}
+
+
+.details > h4{
+    padding: 0 0 0.5rem 0;
+}
+
+.details > h3{
+    padding: 0.5rem 0 0 0;
+}
+
+.details p:nth-child(3n-1){
+    color: gray;
+}
+

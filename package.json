@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "author": {"name": "https://github.com/littlesluggerboi/"},
+  "author": {
+    "name": "https://github.com/littlesluggerboi/"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,8 +13,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "prop-types": "^15.8.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
